@@ -6,6 +6,7 @@
 namespace putyourlightson\ignition;
 
 use Craft;
+use craft\helpers\App;
 use craft\web\Application;
 use yii\base\BootstrapInterface;
 use yii\base\Module;
@@ -19,6 +20,7 @@ class Ignition extends Module implements BootstrapInterface
             SpatieIgnition::make()
                 ->applicationPath(CRAFT_BASE_PATH)
                 ->shouldDisplayException(Craft::$app->config->general->devMode)
+                ->runningInProductionEnvironment(App::parseEnv('ENVIRONMENT') === 'production')
                 ->register();
         }
     }
