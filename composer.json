@@ -1,0 +1,32 @@
+{
+  "name": "putyourlightson/craft-ignition",
+  "description": "Logs messages to a specific log file.",
+  "type": "yii2-extension",
+  "version": "1.0.0",
+  "homepage": "https://github.com/putyourlightson/craft-ignition",
+  "license": "MIT",
+  "keywords": [
+    "craft",
+    "cms",
+    "craftcms",
+    "error",
+    "handling"
+  ],
+  "require": {
+    "craftcms/cms": "^4.0",
+    "spatie/ignition": "^1.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "putyourlightson\\ignition\\": "src/"
+    }
+  },
+  "support": {
+    "docs": "https://github.com/putyourlightson/craft-ignition",
+    "source": "https://github.com/putyourlightson/craft-ignition",
+    "issues": "https://github.com/putyourlightson/craft-ignition/issues"
+  },
+  "extra": {
+    "bootstrap": "putyourlightson\\ignition\\Ignition"
+  }
+}
