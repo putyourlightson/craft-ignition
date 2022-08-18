@@ -1,10 +1,10 @@
 # Ignition for Craft CMS
 
-Ignition is a beautiful and functional error page for [Craft CMS](https://craftcms.com/), powered by Spatie's [Ignition](https://github.com/spatie/ignition).
+Ignition is a beautiful and functional error page for [Craft CMS](https://craftcms.com/), powered by Spatie's [Ignition](https://github.com/spatie/ignition) package.
 
 ## License
 
-This plugin is licensed for free under the MIT License.
+This package is licensed for free under the MIT License.
 
 ## Requirements
 
